@@ -40,7 +40,7 @@ public class SistemaReservas {
         }
     }
 
-    public void listarReserva (Reserva reserva) {
+    public void listarReserva () {
         if (numeros.isEmpty()) {
             System.out.println("\nNo hay reservas registradas actualmente.");
         } else {
@@ -52,7 +52,7 @@ public class SistemaReservas {
     }
 
 
-    public int contarReservas (Reserva reserva) {
+    public int contarReservas () {
         return numeros.size();
     }
 
